@@ -195,11 +195,11 @@
             if (roundsLeft === 0) {
                 let finalMessage = '';
                 if (userScore > cpuScore) {
-                    finalMessage = '🎉 You Win the Game! 🏆';
+                    finalMessage = '🎉 You Won the Game! 🏆';
                 } else if (cpuScore > userScore) {
-                    finalMessage = '😢 You Lose the Game! 🤖';
+                    finalMessage = '😢 You Lost the Game!';
                 } else {
-                    finalMessage = "🤝 It's a Tie! 🟰";
+                    finalMessage = "🤝 It's a Tie! ";
                 }
 
                 resultText.innerText = '';
